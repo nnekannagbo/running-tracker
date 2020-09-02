@@ -7,7 +7,7 @@ document.querySelector("#target").innerHTML = goal;
 function addNewEntry(newEntry) {
     entriesWrapper.removeChild(entriesWrapper.firstElementChild);
     const listItem = document.createElement('li');
-    const listValue = document.createTextNode(newEntry.toFixed(1));
+    const listValue = document.createTextNode(newEntry);
     listItem.appendChild(listValue);
 
     entriesWrapper.appendChild(listItem);
