@@ -45,6 +45,7 @@ button {
     border: none;
     background: #0ad9ff;
     margin: 0.5rem 0 1rem 0;
+    cursor: pointer;
 }
 
 ul {
